@@ -1,33 +1,70 @@
-
 body {
-    background-image: url("../images/stardust.png");
+    background-image: url("../images/light_grey.png");
+    
 }
+
+.container-fluid {}
 /*Navigation Bar and Footer*/
 
 .navbar {
-    background-color: black;
+    background-color: #4aaaa5;
     padding: 10px;
+    color: white;
 }
 
 .navbar-brand {
     font-size: 36px;
     color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+.navbar-default,
+.navbar-brand {
+    color:white !important;
+  
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white !important;
+}
+
+a:hover {
+    color: gray;
+    font-weight: bold;
 }
 
 .footer {
     text-align:center;
     margin-bottom:0;
-    background-color: #5bd4d4;
+    background-color: gray;
     padding-top: 20px;
+    position:sticky;
 }
 
 /*MainBody formatting*/
+
+.page-header {
+    font-family: 'Bree Serif', serif
+    ;}
+
 .mainBody {
-    background-image: url("../images/light_grey.png");
     margin-bottom:15px;
+    background-color:#ffffff;
+    /* background-image: url("../images/light_grey.png") */
+    
+}
+
+.para1,
+.para2 {
+    font-family:'Bree Serif', serif;
 }
 
 /*Connect with Me formatting*/
+.panel-body {    
+    display: flex;
+    justify-content: space-around;
+}
+
 .iconPictures {
     width:64px;
     height:64px;
@@ -38,15 +75,25 @@ body {
 
 }
 
+.connectHead {
+    font-family:'Bree Serif', serif;
+    font-size:20;
+    color:gray !important;
+    text-align:center;
+    font-weight:bold;
+}
 
 /*About Me Page*/
 
 #profilePic {
     width:200px;
     height:200px;
-    margin-right: 15px;
+    margin-right: 20px;
     margin-bottom: 15px;
 }
+
+
+/*Portfolio Page*/
 
 .portfolioPics {
     width: 200px;
@@ -55,6 +102,13 @@ body {
 
 .projectHeaders {
     margin-top:0px;
+    font-family: 'Bree Serif', serif;
+    color:gray;
+}
+
+/*Contact Page*/
+.submitButton {
+    background-color:#4aaaa5;
 }
 
 .portfolioRows {

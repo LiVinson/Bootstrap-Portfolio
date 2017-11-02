@@ -1,0 +1,18 @@
+/*About Me Page*/
+
+#profilePic {
+    width:200px;
+    height:200px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.iconPictures {
+    width:64px;
+    height:64px;
+}
+
+.footer {
+    text-align:center;
+    margin-bottom:0;
+}

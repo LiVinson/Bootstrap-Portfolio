@@ -1,3 +1,44 @@
+
+body {
+    background-image: url("../images/stardust.png");
+}
+/*Navigation Bar and Footer*/
+
+.navbar {
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    color: white;
+}
+
+.footer {
+    text-align:center;
+    margin-bottom:0;
+    background-color: #5bd4d4;
+    padding-top: 20px;
+}
+
+/*MainBody formatting*/
+.mainBody {
+    background-image: url("../images/light_grey.png");
+    margin-bottom:15px;
+}
+
+/*Connect with Me formatting*/
+.iconPictures {
+    width:64px;
+    height:64px;
+}
+
+.icon {
+    display:flex;
+
+}
+
+
 /*About Me Page*/
 
 #profilePic {
@@ -7,12 +48,24 @@
     margin-bottom: 15px;
 }
 
-.iconPictures {
-    width:64px;
-    height:64px;
+.portfolioPics {
+    width: 200px;
+    height: 145px;
 }
 
-.footer {
-    text-align:center;
-    margin-bottom:0;
+.projectHeaders {
+    margin-top:0px;
 }
+
+.portfolioRows {
+    margin-bottom:15px;
+}
+
+/**Max Width: `980px**/
+@media screen and (max-width: 992px) {
+    .connectBox {
+        padding-left:0px;
+        padding-right:0px;
+    }
+}
+
